@@ -36,7 +36,7 @@ export  async function getApi(data){
     try {
       const response = await fetch(url, options);
       const result = await response.json();
-      // renderfixturesContent(result)
+      renderfixturesContent(result)
       console.log(result)
     } catch (error) {
       console.error(error);
