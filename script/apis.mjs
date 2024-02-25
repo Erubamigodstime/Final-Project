@@ -24,10 +24,12 @@ export  async function getApi(data){
       const response = await fetch(url, options);
       const result = await response.json();
       renderfixturesContent(result)
-      console.log(result);
     } catch (error) {
       console.error(error);
     }
     
   }
   
+
+
+

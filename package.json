@@ -12,7 +12,10 @@
     "vite": "^5.1.4"
   },
   "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
     "newsapi": "^2.4.1",
+    "node-fetch": "^3.3.2",
     "qs": "^6.11.2"
   }
 }
