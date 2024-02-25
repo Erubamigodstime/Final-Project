@@ -6,7 +6,7 @@ loadHeaderFooter();
 
 
 slider();
-const url = ' https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=beda954c47f74560a55aa934f9f0b0ce'
+const url = 'https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=beda954c47f74560a55aa934f9f0b0ce'
 
 // const url = 'https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=beda954c47f74560a55aa934f9f0b0ce'
 getApi(url);
