@@ -12,7 +12,9 @@ export  async function getApi(data){
   
   }
 
-  export  async function randomApi(data){
+  export  async function randomApi(){
+    
+    const data = 'https://www.scorebat.com/video-api/v3/feed/?token=MTQyOTU5XzE3MDg4Mzg2NjRfYzU2ZTMxYzU5ZTRlOGM3NDBjZTU2ZmQ5MWYzZjJmZTlhYzMwZWZkMA'
     try {
       const response = await fetch(data);
       const result = await response.json();
@@ -37,7 +39,7 @@ export  async function getApi(data){
       const response = await fetch(url, options);
       const result = await response.json();
       renderfixturesContent(result)
-      console.log(result)
+      // console.log(result)
     } catch (error) {
       console.error(error);
     }

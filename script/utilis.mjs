@@ -70,12 +70,7 @@ export function renderWithTemplate(templateFn, parentElement,  position="afterbe
     
 }
 
-// export function renderfixturesContent(data) {
-  
-//   const htmlItems = data.filter(item => item.time && item.teamA && item.teamB).map((item) => fixturesDisplayTemplate(item)); 
-//   document.querySelector("#fixture-table").innerHTML=htmlItems.join("");
-	
-// }
+
 
 
 export async function loadTemplate(path) {
