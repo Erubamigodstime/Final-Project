@@ -1,0 +1,186 @@
+:root {
+  --background-color: #03071E;
+  --secondary-color: #F48C06;
+  --accent1-color:#370617;
+  --accent2-color:#D00000;
+  --accent3-color:#E85D04;
+  --accent4-color:#FFBA08;
+  --header-and-footer:#9D0208;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header{
+  background-color: var(--header-and-footer);
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+ 
+}
+.logo{
+  position: relative;
+  bottom: 15px;
+}
+.logo img{
+  width: 90px;
+}
+
+nav{
+  margin: 0 auto;
+  max-width: 900px;
+  position: relative;
+  top: 35px;
+  left: 10px;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: 'BIZ UDPMincho', 'Playfair Display','Roboto Condensed', serif;
+}
+nav ul li:hover{
+  background-color:var(--accent4-color) ;
+  cursor: pointer;
+}
+main{
+  margin: 0 auto;
+  max-width: 1220px;
+}
+.news-sect{
+  margin-top: 20px;
+
+}
+
+.news-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.news-img img{
+  width: 100%;
+  height: 100%;
+}
+.news-img{  
+  margin-right: 25px;
+  width: 700px;
+}
+.news-img:hover{
+scale: 1.1;
+}
+.news-text{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.news-text p{
+font-size: 1.1rem;
+font-weight: bold;
+}
+.single-news{
+  display: flex;
+  flex-direction: row;
+  background-color: #ddd;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 600px;
+  height: 200px;
+}
+.news-btn{
+  background-color: #092be8;
+  padding: 10px;
+  width: fit-content;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style for the slider begins here  */
+.slider-container{
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.header-img{
+  margin-bottom: 40px;
+  box-shadow: 0 30px  #009DCF;
+
+}
+
+.images{
+  width: 100%;
+  height: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+p{
+  font-size: 1.0rem;
+}
+
+/* The styling for the fixtures begins here */
+
+.fixtures{
+  margin-right: 50px;
+  width: 700px;
+}
+.fixtures .todays-date{
+  background-color: #370617;
+  padding: 15px;
+  text-align: center;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.single-fixture{
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  border-bottom: solid 2px black;
+  /* border: black 2px solid; */
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+table{
+  width: 100%;
+  
+}
+
+.time{
+  background-color: #9D0208;
+  padding: 6px;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+.time-column {
+  background-color: #9D0208; /* Set your desired color here */
+}
